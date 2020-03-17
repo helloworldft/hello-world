@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.example.myI18n.spring.boot.autoconfigure.MyI18nAutoConfiguration

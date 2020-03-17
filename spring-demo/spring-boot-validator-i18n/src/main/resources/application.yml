@@ -1,0 +1,5 @@
+spring:
+  session:
+    store-type: redis
+#  main:
+#    allow-bean-definition-overriding: true

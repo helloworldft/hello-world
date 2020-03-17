@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="asm-demo" />
+        <module name="java-demo" />
+        <module name="myI18n-spring-boot-starter" />
+        <module name="spring-boot-hello-world" />
+        <module name="spring-boot-locale-i18n" />
+        <module name="spring-boot-session" />
+        <module name="spring-boot-starter-custom-i18n" />
+        <module name="spring-boot-use-custom-i18n" />
+        <module name="spring-boot-use-custom_i18n" />
+        <module name="spring-boot-validator" />
+        <module name="spring-boot-validator-i18n" />
+        <module name="spring-register-center" />
+        <module name="spring-service-a" />
+        <module name="spring-service-b" />
+        <module name="spring-service-c" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asm-demo" target="1.5" />
+      <module name="java-demo" target="1.5" />
+      <module name="myI18n-spring-boot-starter" target="1.8" />
+      <module name="spring-boot-hello-world" target="1.8" />
+      <module name="spring-boot-locale-i18n" target="1.8" />
+      <module name="spring-boot-session" target="1.8" />
+      <module name="spring-boot-starter-custom-i18n" target="1.8" />
+      <module name="spring-boot-use-custom_i18n" target="1.8" />
+      <module name="spring-boot-validator" target="1.8" />
+      <module name="spring-boot-validator-i18n" target="1.8" />
+      <module name="spring-cloud-demo" target="1.8" />
+      <module name="spring-demo" target="1.8" />
+      <module name="spring-register-center" target="1.8" />
+      <module name="spring-service-a" target="1.8" />
+      <module name="spring-service-b" target="1.8" />
+      <module name="spring-service-c" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

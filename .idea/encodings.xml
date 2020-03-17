@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$/spring-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/myI18n-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-boot-hello-world" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-boot-locale-i18n" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-boot-session" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-boot-starter-custom-i18n" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-boot-use-custom_i18n" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-boot-validator-i18n" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-cloud-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-cloud-demo/spring-register-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-cloud-demo/spring-service-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-cloud-demo/spring-service-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-cloud-demo/spring-service-c" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
