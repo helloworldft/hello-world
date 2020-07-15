@@ -17,6 +17,7 @@
         <module>spring-boot-use-custom_i18n</module>
         <module>myI18n-spring-boot-starter</module>
         <module>spring-boot-validator-i18n</module>
+        <module>spring-boot-web-socket</module>
     </modules>
 
 

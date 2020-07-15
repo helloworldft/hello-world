@@ -8,7 +8,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.core.annotation.Order;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by heqingfu on 2020/2/11.
@@ -17,6 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
+@RestController
 public class MyApplication {
 
 
@@ -34,6 +41,10 @@ public class MyApplication {
     public Object myBean() {
         System.out.println("bean initialize");
         return new Object();
+    }
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    public String hello (HttpServletRequest request){
+        return "world";
     }
 
 }

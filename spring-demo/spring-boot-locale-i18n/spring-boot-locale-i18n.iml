@@ -57,7 +57,7 @@
     <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.9" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:3.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars.bower:jquery-i18n-properties:1.2.7" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bower:jquery:3.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:jquery:3.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars.npm:mdui:0.4.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.boot:spring-boot-devtools:2.1.12.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.1.12.RELEASE" level="project" />

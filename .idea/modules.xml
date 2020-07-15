@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/asm-demo/asm-demo.iml" filepath="$PROJECT_DIR$/asm-demo/asm-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hello-world.iml" filepath="$PROJECT_DIR$/.idea/hello-world.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-demo/java-demo.iml" filepath="$PROJECT_DIR$/java-demo/java-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/myI18n-spring-boot-starter/myI18n-spring-boot-starter.iml" filepath="$PROJECT_DIR$/spring-demo/myI18n-spring-boot-starter/myI18n-spring-boot-starter.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-boot-starter-custom-i18n/spring-boot-starter-custom-i18n.iml" filepath="$PROJECT_DIR$/spring-demo/spring-boot-starter-custom-i18n/spring-boot-starter-custom-i18n.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-boot-use-custom_i18n/spring-boot-use-custom_i18n.iml" filepath="$PROJECT_DIR$/spring-demo/spring-boot-use-custom_i18n/spring-boot-use-custom_i18n.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-boot-validator-i18n/spring-boot-validator-i18n.iml" filepath="$PROJECT_DIR$/spring-demo/spring-boot-validator-i18n/spring-boot-validator-i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-boot-web-socket/spring-boot-web-socket.iml" filepath="$PROJECT_DIR$/spring-demo/spring-boot-web-socket/spring-boot-web-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-cloud-demo/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-cloud-demo/spring-cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-cloud-demo/spring-register-center/spring-register-center.iml" filepath="$PROJECT_DIR$/spring-demo/spring-cloud-demo/spring-register-center/spring-register-center.iml" />

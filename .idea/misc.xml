@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/spring-demo/spring-boot-use-custom_i18n/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo/spring-boot-validator-i18n/pom.xml" />
         <option value="$PROJECT_DIR$/asm-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/common-utils/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

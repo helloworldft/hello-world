@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.ModelAndView;
@@ -42,6 +43,7 @@ public class LocaleI18nApplication {
      * 输出文字
      */
     @GetMapping("/hello")
+    @ResponseBody
     public String hello() {
 
         System.out.println(env.getProperty("spring.messages.basename") );

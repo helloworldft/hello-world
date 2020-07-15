@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="asm-demo" />
+        <module name="common-utils" />
         <module name="java-demo" />
         <module name="myI18n-spring-boot-starter" />
         <module name="spring-boot-hello-world" />
@@ -33,6 +34,7 @@
         <module name="spring-boot-use-custom_i18n" />
         <module name="spring-boot-validator" />
         <module name="spring-boot-validator-i18n" />
+        <module name="spring-boot-web-socket" />
         <module name="spring-register-center" />
         <module name="spring-service-a" />
         <module name="spring-service-b" />
@@ -41,15 +43,16 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="asm-demo" target="1.5" />
-      <module name="java-demo" target="1.5" />
+      <module name="common-utils" target="1.5" />
+      <module name="java-demo" target="1.8" />
       <module name="myI18n-spring-boot-starter" target="1.8" />
       <module name="spring-boot-hello-world" target="1.8" />
       <module name="spring-boot-locale-i18n" target="1.8" />
       <module name="spring-boot-session" target="1.8" />
       <module name="spring-boot-starter-custom-i18n" target="1.8" />
       <module name="spring-boot-use-custom_i18n" target="1.8" />
-      <module name="spring-boot-validator" target="1.8" />
       <module name="spring-boot-validator-i18n" target="1.8" />
+      <module name="spring-boot-web-socket" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
       <module name="spring-demo" target="1.8" />
       <module name="spring-register-center" target="1.8" />

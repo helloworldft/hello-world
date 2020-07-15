@@ -2,6 +2,7 @@ package org.example.myI18n.spring.boot.autoconfigure;
 
 import org.example.myI18n.spring.boot.autoconfigure.utils.MessageUtils;
 import org.hibernate.validator.HibernateValidator;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.validation.MessageInterpolatorFactory;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -64,6 +65,7 @@ public class MyI18nAutoConfiguration {
      * 默认解析器 其中locale表示默认语言
      */
     @Bean
+    @ConditionalOnMissingBean
     public LocaleResolver localeResolver() {
         SessionLocaleResolver localeResolver = new SessionLocaleResolver();
         return localeResolver;
