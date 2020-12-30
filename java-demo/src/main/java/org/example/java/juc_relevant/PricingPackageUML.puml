@@ -1,0 +1,60 @@
+@startuml
+
+abstract class AbstractPricingPackageHandler
+interface PricingPackageHandler
+
+PricingPackageHandler <|-- AbstractPricingPackageHandler
+AbstractPricingPackageHandler <|-- CommonPricingPackageHandler
+AbstractPricingPackageHandler <|-- MassagePricingPackageHandler
+
+interface PricingPackageHandler {
+
+    +doHandle()
+
+}
+
+class AbstractPricingPackageHandler {
+
+    -PricingPackageParam param
+
+    +build(Map<String, Object> paraMap, int adUserId, int lyyDistributorId, boolean isBatch, int type, ArrayList<Integer> lyyEquipmentTypeIds)
+
+    +validate()
+
+    +preHandle()
+
+    +handleGroupService()
+
+    +handleDiscountRule()
+
+    +afterHandle()
+
+    +doHandle()
+}
+
+class CommonPricingPackageHandler {
+
+}
+
+class MassagePricingPackageHandler {
+
+}
+
+class PricingPackageHandlerFactory {
+    {static} PricingPackageHandler createInstance(int type)
+
+}
+
+class PricingPackageParam {
+    -int lyyDistributorId
+    -int adUserId
+    -boolean isBatch
+    -ArrayList<Integer> lyyEquipmentTypeIds
+    -List<LinkedHashMap<String, Object>> groupServiceData
+    -List<LinkedHashMap<String, Object>> discountRuleData
+}
+
+
+
+
+@enduml
